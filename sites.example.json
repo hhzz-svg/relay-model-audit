@@ -1,0 +1,18 @@
+{
+  "sites": [
+    {
+      "name": "候选中转站A",
+      "base_url": "https://example-a.com/v1",
+      "model": "target-model-name",
+      "api_key_env": "RELAY_A_KEY",
+      "timeout": 90
+    },
+    {
+      "name": "候选中转站B",
+      "base_url": "https://example-b.com/v1",
+      "model": "target-model-name",
+      "api_key_env": "RELAY_B_KEY",
+      "timeout": 90
+    }
+  ]
+}

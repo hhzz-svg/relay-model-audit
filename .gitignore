@@ -1,0 +1,17 @@
+# Local secrets and private configs
+.env
+.env.*
+!.env.example
+sites.json
+sites.local.json
+sites.tmp*.json
+
+# Runtime output that may contain private endpoint behavior
+results/
+
+# Python/cache/editor noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
