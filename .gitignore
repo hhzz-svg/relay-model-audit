@@ -9,6 +9,9 @@ sites.tmp*.json
 # Runtime output that may contain private endpoint behavior
 results/
 
+# Local working notes (internal dev log, not for publishing)
+progress.md
+
 # Python/cache/editor noise
 __pycache__/
 *.py[cod]

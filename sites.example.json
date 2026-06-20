@@ -2,6 +2,7 @@
   "sites": [
     {
       "name": "候选中转站A",
+      "protocol": "openai",
       "base_url": "https://example-a.com/v1",
       "model": "target-model-name",
       "api_key_env": "RELAY_A_KEY",
@@ -9,6 +10,7 @@
     },
     {
       "name": "候选中转站B",
+      "protocol": "anthropic",
       "base_url": "https://example-b.com/v1",
       "model": "target-model-name",
       "api_key_env": "RELAY_B_KEY",
